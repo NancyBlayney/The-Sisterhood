@@ -1,0 +1,50 @@
+html {
+
+	background-color: #FFFFFF;
+	font-family: Helvetica;
+	color: #7F7F7F;
+	margin; 0 auto;
+
+
+}
+
+p {
+	font-size: 17px; 
+
+}
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+.clearit {
+	clear: both;
+}
+.center {
+	text-align: center;
+}
+
+.titletext {
+	font-weight: strong;
+}
+
+.floatleft {
+	float: left;
+	padding: 5px;
+}
+.floatright {
+	float: left;
+	padding: 5px;
+	width: 400px;
+}
+.margins {
+	width: 300px;
+}
+.picsize {
+	width: 400px;
+	height: 233px;
+}
+
