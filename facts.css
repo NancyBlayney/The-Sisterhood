@@ -1,6 +1,25 @@
 
 body{
-	font-family: Helvetica;
+	/*width: 100%;*/
+	/*background-image: url("https://m2.behance.net/rendition/pm/5416187/disp/117580942a66ef6fd541cc3f4761ee41.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*background-position: absolute;*/
+	/*background-attachment: fixed;*/
+}
+.background_image {
+		position:relative;
+		overflow: hidden;
+
+}
+
+.background_image img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	opacity: 0.6;
 }
 
 
@@ -94,7 +113,7 @@ li.smbar{
 
 footer{
 	width: 100%;
-	position: absolute;
+	position: relative;
 	bottom: 10px;
 	border: 1px solid black;
 	text-align: center;
