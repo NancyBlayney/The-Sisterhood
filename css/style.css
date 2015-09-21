@@ -72,6 +72,13 @@ li.smbar{
 	list-style-type: none;
 }
 
+.socialmediabar{
+	width: 100px;
+	position: fixed;
+}
+
+
+/*End of Social Media Bar Styling*/
 
 
 
