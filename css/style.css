@@ -1,7 +1,33 @@
 body{
 	font-family: Helvetica;
+	width: 100%;
+	overflow: hidden;
 }
 
+#photobannerhome{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+#photobanner{
+	width: 100%;
+}
+
+
+.backgroundimage{
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+img.backgroundimage1{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    height: auto;
+    opacity: 0.3;
+    z-index: -1;
+}
 
 
 /*Navbar*/
@@ -86,10 +112,7 @@ img.banner{
 	float: left;
 }
 
-#photobanner{
-/*	margin-left: 50px;*/
-	padding-left: 10px;
-}
+
 
 
 /*Footer Styling*/
