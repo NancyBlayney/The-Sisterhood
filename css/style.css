@@ -2,6 +2,10 @@ body{
 	font-family: Helvetica;
 }
 
+
+
+/*Navbar*/
+
 .navbar{
 	display: inline-block;
 	text-decoration: none;
@@ -57,5 +61,19 @@ li.navbar:hover {
 
 a.navbar:active {
     color: #7F5977;
-
 }
+ /*End of Navbar*/
+
+
+
+/*Social Media Sidebar Styling*/
+
+li.smbar{
+	list-style-type: none;
+}
+
+
+
+
+
+
