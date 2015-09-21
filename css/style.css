@@ -84,3 +84,26 @@ li.smbar{
 
 
 
+/*Footer Styling*/
+
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px 0px;
+	background-color: #FFB2EE;
+	overflow: auto;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
