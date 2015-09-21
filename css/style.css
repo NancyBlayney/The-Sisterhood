@@ -75,13 +75,21 @@ li.smbar{
 .socialmediabar{
 	width: 100px;
 	position: fixed;
+	left: -20px;
 }
 
 
 /*End of Social Media Bar Styling*/
 
+img.banner{
+	border: 1px solid black;
+	float: left;
+}
 
-
+#photobanner{
+/*	margin-left: 50px;*/
+	padding-left: 10px;
+}
 
 
 /*Footer Styling*/
