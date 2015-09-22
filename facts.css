@@ -1,11 +1,11 @@
 
 body{
-	/*width: 100%;*/
-	/*background-image: url("https://m2.behance.net/rendition/pm/5416187/disp/117580942a66ef6fd541cc3f4761ee41.jpg");*/
-	/*background-repeat: no-repeat;*/
-	/*background-size: cover;*/
-	/*background-position: absolute;*/
-	/*background-attachment: fixed;*/
+	width: 100%;
+	background-image: url("https://m2.behance.net/rendition/pm/5416187/disp/117580942a66ef6fd541cc3f4761ee41.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: absolute;
+	background-attachment: fixed;
 }
 .background_image {
 		position:relative;
