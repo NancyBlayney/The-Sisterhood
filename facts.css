@@ -96,13 +96,45 @@ li.smbar{
 	width: 100px;
 	position: fixed;
 }
+/* Beginning of Facts page. Below nav bar.*/
+.title {
+	font-size: 32px;
+	color:  #999999;
+}
+.group {
+	position: center;
+	width:400px;
+	height: 300px;
+	float: right;
+}
 
-.WT1 {
+.WT {
+	border: solid;
+	background-color: #ff77aa;
 	height: 500px;
 	width: 500px;
 	margin-left: 50px;
 }
 
+.middle {
+	font:#ff5588;
+	font-size: 28px;
+	background-color: #f7f7f7;
+	border:solid #ff5588;
+	height: 200px;
+	width:400px;
+	padding: 20px;
+	float: both;
+}
+
+.boyfriend {
+	float: right;
+}
+
+.list {
+	position: center;
+	
+}
 /*End of Social Media Bar Styling*/
 
 
