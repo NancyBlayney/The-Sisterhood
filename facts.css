@@ -1,7 +1,7 @@
 
 body{
 	width: 100%;
-	background-image: url("https://m2.behance.net/rendition/pm/5416187/disp/117580942a66ef6fd541cc3f4761ee41.jpg");
+	background-image: url("https://cdn-images-1.medium.com/max/800/1*0HeLX0DzC3AiKA77dTcGmA.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: absolute;
@@ -115,6 +115,14 @@ li.smbar{
 	width: 500px;
 	margin-left: 50px;
 }
+ 
+/*.middle img{*/
+	/*margin: 20px;*/
+	/*display: block;*/
+	/*clear: both;*/
+	/*border-radius: 10px;*/
+	/*background: rgba(104, 104, 104, 0.8);*/
+	/*border: 1px solid black; */
 
 .middle {
 	font:#ff5588;
