@@ -14,6 +14,7 @@ body {
 	position: absolute;
 	float: center;
 	color: white;
+	margin: 10px;
 
 	/*overflow: hidden;*/
 }
@@ -26,6 +27,8 @@ h1 {
 	margin: 20px 20px 20px 90px;
 	border-radius: 10px;
 	padding: 5px;
+	border-style: solid;
+	border-color: rgba(104, 104, 104, 0.8);
 
 }
 
@@ -38,6 +41,9 @@ h1 {
 	margin: 20px 20px 20px 90px;
 	display: block;
 	padding: 5px;
+	border-style: solid;
+	border-color: rgba(104, 104, 104, 0.8);
+
 }
 
 
@@ -45,14 +51,14 @@ h1 {
 /*	width: 80%;
 	height: 20%;*/
 	display: inline-block;
-	/*float: center;*/
-	color: white;
-	background: rgb(0,0,0); /*fallback color */
-	background: rgba(104, 104, 104, 0.8);
+	background-color: rgb(200,200,200); /*fallback color */
+	background-color: rgba(104, 104, 104, 0.8);
 	position: relative;
 	text-align: center;
 	margin: 120px 20px 20px 90px;
 	border-radius: 10px;
+	border-style: solid;
+	border-color: rgba(104, 104, 104, 0.8);
 }
 
 .donatebar li {
@@ -64,6 +70,7 @@ h1 {
 	margin: 5px;
 	border-radius: 2px;
 	font-size: 18px;
+	background-color: rgb(255, 153, 255);
 }
 
 .donatebar ul {
