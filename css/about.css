@@ -1,21 +1,16 @@
-html {
 
-	background-color: #FFFFFF;
-	font-family: Helvetica;
-	color: #7F7F7F;
-	margin; 0 auto;
-	
-	margin-left: 60px;
 
+body{
+font-family: Helvetica;
+	width: 100%;
+	overflow: auto;
+	background-color: #FFD4ED;	
 }
 
 p {
 	font-size: 17px; 
+}
 
-}
-h2 {
-	font-size: 2em;
-}
 
 .space1 {
 	margin-top: 40px;
@@ -26,7 +21,7 @@ h2 {
 }
 
 
-h3 {
+h2{
 	
 	margin: 0px 0px;
 	width: 400px;
@@ -35,40 +30,91 @@ h3 {
 .clearit {
 	clear: both;
 }
+
 .center {
 	text-align: center;
 }
 
 .titletext {
-	font-weight: strong;
+	font-weight: strong;	
 }
 
 .floatleft {
 	float: left;
-	padding: 5px;
-	margin-top: 10px;
-	width: 400px;
+	margin-left: 5%;
 }
 .floatright {
 	float: left;
-	margin-top: 0px;
+	margin-left: 5%;
 	width: 400px;
 }
 .margins {
 	width: 300px;
 }
-.picsize {
-	width: 300px;
-	height: 200px;
+
+.line1{
+	clear: both;
+	display: block;
 }
 
-
-
-body{
-	font-family: Helvetica;
+.img1 {
+	width: 240px;
+	height: 160px;
+	border: 1px solid black;
+	margin-top: 40px;
 }
 
+.img2 {
+	width: 294px;
+	height: 171px;
+	border: 1px solid black;
+	margin-top: 40px;
+}
 
+.img3 {
+	height: 180px;
+	border: 1px solid black;
+	margin-top: 40px;
+}
+
+.img4 {
+	height: 180px;
+	border: 1px solid black;
+	margin-top: 40px;
+}
+
+.line1{
+	padding: 20px;
+	border-radius: 10px;
+	background: rgba(104, 104, 104, 0.65);
+	overflow: auto;
+	color: white;
+	width: 70%;
+	float: center;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	vertical-align: center;
+	border: 1px solid #FF6EED;
+}
+
+.line1 p{
+	margin-top: 10px;
+}
+
+.description{
+	padding: 10px;	
+	color: rgba(94, 94, 94, .95);
+	overflow: auto;
+	width: 70%;
+	float: center;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	vertical-align: center;
+}
 
 /*Navbar*/
 
@@ -81,6 +127,7 @@ nav{
 	text-align: center;
 	border: 2px solid #7F5977;
 	background-color: #7F7F7F;
+	opacity: .9;
 	padding-top: 10px;
 }
 
@@ -92,10 +139,10 @@ li.navbar{
 	text-align: center;
 	margin: 0px 30px;
 	background-color: #FFFFFF;	
-
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
+ 
  
 	/*Gradient*/
 	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
@@ -131,7 +178,6 @@ a.navbar:active {
  /*End of Navbar*/
 
 
-
 /*Social Media Sidebar Styling*/
 
 li.smbar{
@@ -141,13 +187,12 @@ li.smbar{
 .socialmediabar{
 	width: 100px;
 	position: fixed;
+	left: -20px;
+	z-index: 1;
 }
 
 
 /*End of Social Media Bar Styling*/
-
-
-
 
 
 /*Footer Styling*/
@@ -159,7 +204,7 @@ footer{
 	border: 1px solid black;
 	text-align: center;
 	padding: 10px 0px;
-	background-color: #FFB2EE;
+	background-color: #FF6EED;
 	overflow: auto;
 	font-style: italic;
 }
