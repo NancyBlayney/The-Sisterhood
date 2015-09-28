@@ -98,5 +98,5 @@ footer {
 	overflow: auto;
 	font-style: italic;
 	clear: both;
-	position: absolute;
+	position: fixed;
 }

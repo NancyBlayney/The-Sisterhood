@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	font-family: Helvetica;
 	width: 100%;
@@ -23,7 +28,8 @@ nav{
 	border: 2px solid #7F5977;
 	background-color: #7F7F7F;
 	opacity: .9;
-	padding-top: 10px;
+	padding: 10px 0px;
+	margin: 10px 0px;
 }
 
 li.navbar{
