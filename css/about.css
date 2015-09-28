@@ -1,4 +1,7 @@
-
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body{
 font-family: Helvetica;
@@ -123,22 +126,13 @@ li.smbar{
 	list-style-type: none;
 }
 
-.socialmediabar{
-	width: 100px;
-	position: fixed;
-	left: -20px;
-	z-index: 1;
-}
 
-
-/*End of Social Media Bar Styling*/
 
 
 /*Footer Styling*/
 
 footer{
 	width: 100%;
-	position: relative;
 	bottom: 10px;
 	border: 1px solid black;
 	text-align: center;
@@ -146,13 +140,14 @@ footer{
 	background-color: #FF6EED;
 	overflow: auto;
 	font-style: italic;
+	clear: both;
+	position: relative;
 }
 
 /*End of Footer Styling*/
 
 
 /*Navbar*/
-
 
 .navbar{
 	display: inline;
@@ -164,7 +159,8 @@ nav{
 	border: 2px solid #7F5977;
 	background-color: #7F7F7F;
 	opacity: .9;
-	padding-top: 10px;
+	padding: 10px 0px;
+	margin: 10px 0px;
 }
 
 li.navbar{
@@ -222,3 +218,22 @@ a.navbar:active {
     color: #7F5977;
 }
  /*End of Navbar*/
+
+
+
+/*Social Media Sidebar Styling*/
+
+li.smbar{
+	list-style-type: none;
+}
+
+.socialmediabar{
+	width: 100px;
+	position: fixed;
+	left: -20px;
+	z-index: 1;
+
+}
+
+
+/*End of Social Media Bar Styling*/
