@@ -153,8 +153,13 @@ footer{
 
 /*Navbar*/
 
+<<<<<<< HEAD
 .navbar{
 	display: inline;
+=======
+/*.navbar{
+	display: inline-block;
+>>>>>>> d19976322c2c73b8069c0da0fa39d92e64e5561e
 	text-decoration: none;
 }
 
@@ -180,7 +185,7 @@ li.navbar{
 	font-size: 20px;
  
 	/*Gradient*/
-	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+/*	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
@@ -219,10 +224,106 @@ li.navbar:hover {
 
 a.navbar:active {
     color: #7F5977;
-}
+}*/
  /*End of Navbar*/
 
 
+<<<<<<< HEAD
+=======
+/*Social Media Sidebar Styling*/
+
+li.smbar{
+	list-style-type: none;
+}
+
+.socialmediabar{
+	width: 100px;
+	position: fixed;
+	left: -20px;
+	z-index: 1;
+}
+
+
+/*End of Social Media Bar Styling*/
+
+
+/*Footer Styling*/
+
+.footer1{
+	width: 100%;
+	position: relative;
+	bottom: 10px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px 0px;
+	background-color: #FF6EED;
+	overflow: auto;
+	font-style: italic;
+}
+
+/*End of Footer Styling*/
+
+/*Navbar*/
+
+/*.navbar{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav{
+	text-align: center;
+	border: 2px solid #7F5977;
+	background-color: #7F7F7F;
+	opacity: .9;
+	padding-top: 10px;
+}
+
+li.navbar{
+	padding: 10px;
+	border: 3px solid #7F5977;
+	width: 150px;
+	height: 20px;
+	text-align: center;
+	margin: 0px 30px;
+	background-color: #FFFFFF;	
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;*/
+ 
+	/*Gradient*/
+/*	background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+	-ms-transition: All 0.5s ease;
+	transition: All 0.5s ease;
+
+}
+
+a.navbar:link {
+    color: #7F5977;
+}
+
+a.navbar:visited {
+    color: #7F5977;
+}
+
+li.navbar:hover {
+    color: #7F5977;
+    width: 200px;
+    margin: 0px 5px;
+}
+
+a.navbar:active {
+    color: #7F5977;
+}*/
+ /*End of Navbar*/
+>>>>>>> d19976322c2c73b8069c0da0fa39d92e64e5561e
 
 
 
