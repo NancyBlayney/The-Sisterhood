@@ -1,6 +1,6 @@
 body {
 	width: 100%;
-	background-image: url("../images/donateback.jpg");
+	background-image: url("../images/donateback_copy.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -95,7 +95,7 @@ footer {
 	border: 1px solid black;
 	text-align: center;
 	padding: 10px 0px;
-	background-color: ##FF6EED;
+	background-color: #FF6EED;
 	overflow: auto;
 	font-style: italic;
 	clear: both;
